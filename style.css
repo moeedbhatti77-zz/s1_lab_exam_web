@@ -25,15 +25,13 @@ header li{
 .header-middle ul{
     position: relative;
     float: right;
-    top: -70px;
-    right: 150px;
+    right: 50px;
 }
 .header-lower{
     background: rgb(0, 86, 128);
-    margin: auto;
+    margin-top: 132px;
+    border-top:1px solid black
 
-    position: relative;
-    display: inline;
 }
 .header-lower ul li{
     display: inline;
@@ -45,7 +43,15 @@ header li{
     margin-left : 200px;
     margin-top: 170px;
 }
-.table-1{
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+/* .table-1{
     width: 50%;
     margin: auto;
-}
+} */
